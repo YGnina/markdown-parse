@@ -40,7 +40,7 @@ public class MarkdownParseTest {
         Path fileName = Path.of("test-file.md");
 	    String contents = Files.readString(fileName);
 
-        assertEquals(contents2.size(),100);
+        assertEquals(contents2.size(),0);
     }
 
 

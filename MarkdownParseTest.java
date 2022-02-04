@@ -43,6 +43,14 @@ public class MarkdownParseTest {
         assertEquals(contents2.size(),0);
     }
 
+    @Test
+    public void parseTest4() throws IOException{
+        List<String> contents2 = List.of();
 
+        Path fileName = Path.of("test-file");
+	    String contents = Files.readString(fileName);
+
+        assertEquals(contents2.size(),0);
+    }
 
 }
